@@ -3,10 +3,10 @@
 */
 const areaRettangolo = function (latoA, latoB) {
   const result = latoA + latoB;
+  //   return result;
 };
 
 console.log(areaRettangolo(15, 17));
-
 
 /* ESERCIZIO 2
  Scrivi una funzione di nome "crazySum", che riceve due numeri interi come parametri.
@@ -14,17 +14,14 @@ console.log(areaRettangolo(15, 17));
  la loro somma moltiplicata per tre.
 */
 
-const crazyDiff = function(num1,num2){
-    const risult = a - b 
-    return risult
-    console.log(risult)
-    {
-    if (result=>19) 
-        {
-        return = (return * 3) 
-    }
-}
-
+const crazyDiff = function (num1, num2) {
+  const risultato = num1 + num2;
+  if (num1 === num2) return risultato * 3;
+  else {
+    return risultato;
+  }
+};
+console.log(crazyDiff(2, 6));
 
 /* ESERCIZIO 3
  Scrivi una funzione di nome "crazyDiff" che calcola la differenza assoluta tra un numero fornito come parametro e 19.
