@@ -21,7 +21,7 @@ const crazyDiff = function (num1, num2) {
     return risultato;
   }
 };
-console.log(crazyDiff(2, 6));
+console.log(crazyDiff(6, 6));
 
 /* ESERCIZIO 3
  Scrivi una funzione di nome "crazyDiff" che calcola la differenza assoluta tra un numero fornito come parametro e 19.
